@@ -2,63 +2,137 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <!-- Aqui importo mis librerias -->
         <title>Up runnig with boostrap</title>
         <link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.css">
         <link rel="stylesheet" href="libs/bootstrap/dist/css/style.css">
     </head>
     <body>
+        <div class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a href="#" class="navbar-brand "> Up and running with boostrap</a>
+                    <button type="button" class="navbar-toggle " data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <!-- /.navbar -->
+                <ul class="nav  navbar-nav navbar-right collapse navbar-collapse">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Reservations</a></li>
+                    <li >
+                        <a href="#"  data-toggle="dropdown">About <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Our Story</a></li>
+                            <li><a href="#">Contact us</a></li>
+                            <li class="divider">/li>
+                            <li><a href="#">Blog</a></li>
+                            <li class="divider">/li>
+                            <li><a href="#">Twitter</a></li>
+                            <li><a href="#">Facebook</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <!-- /.col-md-12 -->
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /.navbar -->
+
 
         <div class="container">
-
-            <div class="row">
-                <div class="col-md-12">
-                    <h1>Up running with boostrap</h1>
-                <!-- Aqui termina nuestro div class="col-md-12" -->
-                </div>
-            <!-- Aqui termina nuestro div class="row" -->
-            </div>
-
-            <div class="row">
-                <div class="col-md-6 lead ">
-                    <h2>The fest way to learn</h2>
-                    <button type="button" name="button">Take he tour</button>
-                    <button type="button" name="button">Book Today</button>
+            <!-- /.row -->
+            <div class="row well well-sm">
+                <div class="col-md-6 lead">
+                    <h2>The fastest way to learn</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit numquam iure, repellendus, voluptatibus ab quisquam nisi vitae inventore. Possimus, perspiciatis.</p>
-                <!-- Aqui termina nuestro div class="col-md-6 lead" -->
+                    <button type="button" name="button" class="btn  btn-default">Take he tour</button>
+                    <button type="button" name="button" class="btn btn-primary">Book Today</button>
                 </div>
+                <!-- /.col-md-6 -->
                 <div class="col-md-6 visible-sm  visible-lg">
                     <img src="img/wow.jpg" alt="" width="150">
-                <!-- Aqui termina nuestro div class="col-md-6 visible-sm  visible-lg"-->
                 </div>
-            <!-- Aqui termina nuestro Container div class="row"-->
+                <!-- /.col-md-6 -->
             </div>
+            <!-- /.row -->
 
-            <div class="row text-center features ">
-                <div class="col-sm-4 col-xs-10 col-xs-offset-1 col-sm-offset-0 ">
+            <div class="row text-center features">
+                <div class="col-sm-4 col-xs-10 col-xs-offset-1 col-sm-offset-0"  >
                     <i class="glyphicon glyphicon-briefcase "></i>
                     <h3>Book Today</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis minima placeat libero excepturi recusandae fugit fuga sapiente ducimus expedita alias.</p>
-                <!-- Aqui termina nuestro div class="col-sm-4 col-xs-10 col-xs-offset-1 col-sm-offset-0 " -->
                 </div>
-                <div class="col-sm-4 col-xs-6" >
+                <!-- /.col-sm-4 -->
+                <div class="col-sm-4 col-xs-6">
                     <i class="glyphicon glyphicon-tint"></i>
                     <h3>Go Anywhere</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae architecto fugiat aliquid accusantium eum natus sapiente repudiandae recusandae! Magnam, neque.</p>
-                <!-- Aqui termina nuestro div class="col-sm-4 col-xs-6" -->
                 </div>
+                <!-- /.col-sm-4 -->
                 <div class="col-sm-4 col-xs-6">
                     <i class="glyphicon glyphicon-send"></i>
                     <h3>Rocketbus &reg;</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis deleniti quibusdam aut maxime nostrum fuga dolore qui, culpa quasi a.</p>
-                <!-- Aqui termina nuestro div class="col-sm-4 col-xs-6 -->
                 </div>
-            <!-- Aqui termina nuestro div class="row text-center features -->
+                <!-- /.col-sm-4 -->
             </div>
+            <!-- /.row -->
 
-        <!-- Aqui termina nuestro Container -->
         </div>
-        <script src="../libs/jquery/dist/jquery.js"></script>
-        <script src="../libs/bootstrap/dist/js/bootstrap.js"></script>
+        <!-- /.container -->
+
+
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-6 col-sm-4 col-md-3">
+                        <h4>who we are</h4>
+                        <p>Up and running with boostrap</p>
+                        <p><a href="#">More About us <i class=" glyphicon glyphicon-arrow-right "></i></a></p>
+                    </div>
+                    <!-- /.col-xs-6 -->
+                    <div class=" col-xs-6  col-sm-2 col-md-3">
+                        <h4>Links</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Reservation</a></li>
+                            <li><a href="#">Clasrrom</a></li>
+                        </ul>
+                    </div>
+                    <!-- /.col-xs-6 -->
+                    <div class="col-xs-6 col-sm-2  col-md-3">
+                        <div class="clearfix visible-xs"></div>
+                        <h4>Stay in Touch</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Twitter</a></li>
+                            <li><a href="#">Facebook</a></li>
+                        </ul>
+                    </div>
+                    <!-- /.col-xs-6 -->
+                    <div class="col-xs-6 col-sm-4  col-md-3">
+                        <h4>Contact Us</h4>
+                        <ul class="list-unstyled">
+                            <li><i class="glyphicon glyphicon-globe"> Col. Nicolas Bravo</i></li>
+                            <li><i class="glyphicon glyphicon-earphone"> 2381787163</i></li>
+                            <li><i class="glyphicon glyphicon-envelope"><a href="#"> miguelalberto.fuentes@alumno.uttehuacan.edu.mx</a></i></li>
+                        </ul>
+                    </div>
+                    <!-- /.col-xs-6 -->
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /.footer -->
+
+
+        <script src="libs/jquery/dist/jquery.js"></script>
+        <script src="libs/bootstrap/dist/js/bootstrap.js"></script>
     </body>
 </html>
